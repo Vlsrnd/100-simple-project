@@ -1,0 +1,19 @@
+{
+  "name": "100-simple-project",
+  "version": "1.0.0",
+  "description": "My short code sketchs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlsrnd/100-simple-project.git"
+  },
+  "author": "Leonid Velichko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vlsrnd/100-simple-project/issues"
+  },
+  "homepage": "https://github.com/Vlsrnd/100-simple-project#readme"
+}

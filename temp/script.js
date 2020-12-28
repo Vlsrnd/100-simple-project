@@ -19,8 +19,6 @@ elements[2].style.top = y[1] + 'px';
 elements[3].style.left = x[1] + 'px';
 elements[3].style.top = y[1] + 'px';
 
-
-
 const limit = (value, min, max) => Math.max(min, Math.min(max, value));
 
 const rotate = (event) => {
