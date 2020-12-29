@@ -1,0 +1,87 @@
+:root {
+  --width: 500px;
+}
+@media (max-width: 700px) {
+  :root {
+    --width: 300px;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+}
+
+.box {
+  width: var(--width);
+  height: var(--width);
+  transform-style: preserve-3d;
+  transform: perspective(120000px);
+}
+
+.side {
+  background-color: transparent;
+  border: 2px solid black;
+}
+.box__top {
+  width: 100%;
+  height: 100%;
+  transform-origin: bottom;
+  transform: translate3d(0, 0, calc(var(--width) / 2));
+}
+.box__bottom {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(0, 0, calc(0px - var(--width) / 2)) rotate3d(1, 0, 0, 180deg);
+}
+
+.box__left-side,
+.box__right-side {
+  width: var(--width);
+  height: 100%;
+  position: absolute;
+  left: calc(0px - var(--width));
+  top: 0;
+}
+.box__left-side {
+  transform-origin: 100% 0;
+  transform: translate3d(0, 0, calc(var(--width) / 2)) rotate3d(0, 1, 0, -90deg);
+}
+.box__right-side {
+  left: 100%;
+  transform-origin: 0 0;
+  transform: translate3d(0, 0, calc(var(--width) / 2)) rotate3d(0, 1, 0, 90deg);
+}
+.box__top-side,
+.box__bottom-side {
+  width: 100%;
+  height: var(--width);
+  position: absolute;
+  top: calc(0px - var(--width));
+}
+.box__top-side {
+  transform-origin: 0 100%;
+  transform: translate3d(0, 0, calc(var(--width) / 2)) rotate3d(1, 0, 0, 90deg);
+}
+.box__bottom-side {
+  top: 100%;
+  transform-origin: 0 0;
+  transform: translate3d(0, 0, calc(var(--width) / 2)) rotate3d(1, 0, 0, -90deg);
+}
