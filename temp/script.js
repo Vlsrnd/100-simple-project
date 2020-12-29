@@ -1,31 +1,33 @@
-const button = document.querySelector('.button');
 const box = document.querySelector('.box');
-const score = document.querySelector('.score');
 
-button.addEventListener('click', () => {
-  const random = Math.floor( Math.random() * 6) + 1;
-  let rotateStyle = '';
+    // rotateStyle = `transform: rotate3d(0,1,0,-90deg);` 
+    // rotateStyle = `transform: rotate3d(1,0,0,90deg);` 
+    // rotateStyle = `transform: rotate3d(0,1,0,90deg);` 
+    // rotateStyle = `transform: rotate3d(1,0,0,-90deg);` 
+    // rotateStyle = `transform: rotate3d(1,0,0,180deg);` 
+let startCoord = [null, null];
+let angleX = 0;
+let angleY = 0;
 
-  if (random === 1) {
-    return;
-  } else if (random === 2) {
-    rotateStyle = `transform: rotate3d(0,1,0,-90deg);` 
-  } else if (random === 3) {
-    rotateStyle = `transform: rotate3d(1,0,0,90deg);` 
-  } else if (random === 4) {
-    rotateStyle = `transform: rotate3d(0,1,0,90deg);` 
-  } else if (random === 5) {
-    rotateStyle = `transform: rotate3d(1,0,0,-90deg);` 
-  } else if (random === 6) {
-    rotateStyle = `transform: rotate3d(1,0,0,180deg);` 
-  }
+const changeAngle = (e) => {
+  angleX += startCoord[0] - e.clientX;
+  angleY += startCoord[1] - e.clientY;
+  startCoord[0] = e.clientX;
+  startCoord[1] = e.clientY;
+};
 
-  box.style = rotateStyle;
+const rotateBox = (e) => {
+  changeAngle(e);
+  box.style.transform = `rotate3d(1, 0, 0, ${angleY}deg)` +
+    `rotate3d(0, 1, 0, ${angleX}deg)`;
+  console.log('done')
+}
 
-  score.insertAdjacentHTML('beforeend', `<div>${random}</div>`);
-  if (score.clientHeight > document.documentElement.clientHeight){
-   score.innerHTML = '<div>Score</div>';
-   score.insertAdjacentHTML('beforeend', `<div>${random}</div>`);
-  }
-    
+document.addEventListener('mousedown', (e) => {
+  startCoord = [e.clientX, e.clientY];
+  document.addEventListener('mousemove', rotateBox);
 })
+document.addEventListener('mouseup', () => {
+  document.removeEventListener('mousemove', rotateBox);
+})
+
