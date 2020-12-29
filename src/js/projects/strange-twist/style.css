@@ -1,0 +1,54 @@
+:root {
+  --delay-delete: 0.5s;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  font-family: monospace;
+  min-height: 50vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-color: #777;
+}
+
+#canvas-draw {
+  margin: 0;
+  padding: 0;
+}
+
+.elem {
+  position: absolute;
+  height: 300px;
+  width: 50px;
+  border-radius: 20% 80%;
+  transition: all .1s linear;
+  opacity: .5;
+}
+.elem:nth-child(1) {
+  background-color: red;
+}
+.elem:nth-child(2) {
+  background-color: blue;
+}
+.elem:nth-child(3) {
+  background-color: green;
+}
+.elem:nth-child(4) {
+  background-color: yellow;
+}
