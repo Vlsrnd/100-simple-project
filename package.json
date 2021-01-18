@@ -1,5 +1,5 @@
 {
-  "name": "100-simple-project",
+  "name": "100-simple-projects",
   "version": "1.0.0",
   "description": "My short code sketchs",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vlsrnd/100-simple-project.git"
+    "url": "git+https://github.com/Vlsrnd/100-simple-projects.git"
   },
   "author": "Leonid Velichko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vlsrnd/100-simple-project/issues"
+    "url": "https://github.com/Vlsrnd/100-simple-projects/issues"
   },
-  "homepage": "https://github.com/Vlsrnd/100-simple-project#readme"
+  "homepage": "https://github.com/Vlsrnd/100-simple-projects#readme"
 }
