@@ -18,11 +18,12 @@ List of projects:
 
 | NAME          | ANIMATION          |
 | :-----------: |:------------------:|
-| css 3d cube (css + js)| <img src="https://drive.google.com/uc?export=view&id=1uMbHN5PMNdY92j5Y94ihuLeuNeyu2xDT" width="240" height="240" alt="game"> |
-| css 3d drag-n-drop cube (css + js)| <img src="https://drive.google.com/uc?export=view&id=1dSttZX5cKonYf17E33of6gLqd29SMp6O" width="240" height="240" alt="game"> |
-| css trash basket (pure CSS) | <img src="https://drive.google.com/uc?export=view&id=1Toie6hzYIN89YLhIDdskAvtS3u0g64cc" width="240" height="240" alt="game"> |
-| new year lights (canvas) | <img src="https://drive.google.com/uc?export=view&id=1Tzn2sXVQYrwXfPHxCwAAMvMFaYH9LRjH" width="240" height="240" alt="game"> |
-| react logo (canvas) | <img src="https://drive.google.com/uc?export=view&id=14_cPkD0cCNyphKDZdcLCd9OOLwe1PXuq" width="240" height="240" alt="game"> |
-| select elements (canvas + DOM) | <img src="https://drive.google.com/uc?export=view&id=1Dpf0UNtncpTUUPBbeLFaKdVPO_TazlFV" width="240" height="240" alt="game"> |
-| simple butterfly cursor (js + css) | <img src="https://drive.google.com/uc?export=view&id=1a6y2GSOBwK69zLfUEqc98uwC1KS9fqfX" width="240" height="240" alt="game"> |
-| strange thing ) roll mouse scroll (js + css) | <img src="https://drive.google.com/uc?export=view&id=1BpHumeaHCzYzuSqiCjlFjrCMFsv31NMU" width="240" height="240" alt="game"> |
+| css 3d cube (css + js)| <img src="https://i.ibb.co/DMXPY0K/css-3d-cube.gif" width="240" height="240" alt="game"> |
+| css 3d drag-n-drop cube (css + js)| <img src="https://i.ibb.co/yS2ZXVz/css-3d-drag-n-drop.gif" width="240" height="240" alt="game"> |
+| css trash basket (pure CSS) | <img src="https://i.ibb.co/zJmNNHY/css-trash.gif" width="240" height="240" alt="game"> |
+| new year lights (canvas) | <img src="https://i.ibb.co/GtJdtDb/new-year-lights.gif" width="240" height="240" alt="game"> |
+| react logo (canvas) | <img src="https://i.ibb.co/HpRdzSG/react-logo.gif" width="240" height="240" alt="game"> |
+| select elements (canvas + DOM) | <img src="https://i.ibb.co/KKGcwYK/select-elements.gif" width="240" height="240" alt="game"> |
+| simple butterfly cursor (js + css) | <img src="https://i.ibb.co/F4LKxRY/simple-butterfly.gif" width="240" height="240" alt="game"> |
+| strange thing ) roll mouse scroll (js + css) | <img src="https://i.ibb.co/Lkfm5K7/strange-twist.gif" width="240" height="240" alt="game"> |
+
