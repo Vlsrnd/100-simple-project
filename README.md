@@ -26,4 +26,4 @@ List of projects:
 | select elements (canvas + DOM) | <img src="https://i.ibb.co/KKGcwYK/select-elements.gif" width="240" height="240" alt="game"> |
 | simple butterfly cursor (js + css) | <img src="https://i.ibb.co/F4LKxRY/simple-butterfly.gif" width="240" height="240" alt="game"> |
 | strange thing ) roll mouse scroll (js + css) | <img src="https://i.ibb.co/Lkfm5K7/strange-twist.gif" width="240" height="240" alt="game"> |
-
+| bounce (js + css) | <img src="https://i.ibb.co/3m1N73R/bounce.gif" width="240" height="240" alt="game"> |
